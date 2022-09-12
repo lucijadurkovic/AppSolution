@@ -1,0 +1,50 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [coredbadmin] (User)
+       Role Membership: <unnamed> (Role Membership)
+       [Area] (Schema)
+       [dbo].[Countries] (Table)
+       [dbo].[Countries_History] (Table)
+       [dbo].[Districts] (Table)
+       [dbo].[Districts_History] (Table)
+       [dbo].[Employees] (Table)
+       [dbo].[Employees_History] (Table)
+       [dbo].[Genders] (Table)
+       [dbo].[Genders_History] (Table)
+       [dbo].[NationalIdTypes] (Table)
+       [dbo].[Places] (Table)
+       [dbo].[Places_History] (Table)
+       [dbo].[Regions] (Table)
+       [dbo].[Regions_History] (Table)
+       Foreign Key: unnamed constraint on [dbo].[Districts] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Employees] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Employees] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Employees] (Foreign Key)
+       [dbo].[FK_Employees_Places] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Places] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Places] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Regions] (Foreign Key)
+       [dbo].[trg_Countries] (Trigger)
+       [dbo].[trg_Districts] (Trigger)
+       [dbo].[trg_Employees] (Trigger)
+       [dbo].[trg_Genders] (Trigger)
+       [dbo].[trg_Places] (Trigger)
+       [dbo].[trg_Regions] (Trigger)
+       [dbo].[vArea] (View)
+       [dbo].[vArea].[MS_DiagramPane1] (Extended Property)
+       [dbo].[vArea].[MS_DiagramPaneCount] (Extended Property)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

@@ -1,0 +1,49 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [admindbadmin] (User)
+       Role Membership: <unnamed> (Role Membership)
+       [dbo].[Applications] (Table)
+       [dbo].[Applications_History] (Table)
+       [dbo].[Authorizations] (Table)
+       [dbo].[Authorizations_History] (Table)
+       [dbo].[Calendar] (Table)
+       [dbo].[Persons] (Table)
+       [dbo].[RoleAuthorization] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[Roles_History] (Table)
+       [dbo].[UserApplications] (Table)
+       [dbo].[Users] (Table)
+       [dbo].[Users_History] (Table)
+       [dbo].[FK_RoleAuthorization_Authorizations] (Foreign Key)
+       [dbo].[FK_RoleAuthorization_Roles] (Foreign Key)
+       [dbo].[FK_UserApplications_Applications] (Foreign Key)
+       [dbo].[FK_UserApplications_Roles] (Foreign Key)
+       [dbo].[FK_UserApplications_Users] (Foreign Key)
+       [dbo].[trg_Applications] (Trigger)
+       [dbo].[trg_Authorizations] (Trigger)
+       [dbo].[trg_Roles] (Trigger)
+       [dbo].[trg_Users] (Trigger)
+       [dbo].[fn_CanUserAccessApp] (Function)
+       [dbo].[fn_GetDayType] (Function)
+       [dbo].[fn_GetRoleAuthorizations] (Function)
+       [dbo].[fn_GetUserApplications] (Function)
+       [dbo].[crud_DeleteCalendar] (Procedure)
+       [dbo].[crud_DeleteRoleAuthorization] (Procedure)
+       [dbo].[crud_DeleteUserApplications] (Procedure)
+       [dbo].[crud_InsertDateIntoCalendar] (Procedure)
+       [dbo].[crud_InsertRoleAuthorization] (Procedure)
+       [dbo].[crud_InsertUserApplications] (Procedure)
+       [dbo].[crud_SelectDayTypeCalendar] (Procedure)
+       [dbo].[crud_UpdateTypeInCalendar] (Procedure)
+
+** Supporting actions

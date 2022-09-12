@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBProjects", "DBProjects", "{47512C49-3057-49C8-BB6A-B46A15BE98AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_Scheduler", "Task_Scheduler", "{6B6A27F4-CE03-43DD-87B0-AE97454F7457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jobs", "Jobs", "{00A02F35-DFA0-48D8-9CCC-6C28F9EF97BA}"
+	ProjectSection(SolutionItems) = preProject
+		DBProjects\Task_Scheduler\Jobs\TaskSchedulerJob.bat = DBProjects\Task_Scheduler\Jobs\TaskSchedulerJob.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A01409F5-2E7E-4C80-A8C0-79FB2CE89642}"
+	ProjectSection(SolutionItems) = preProject
+		DBProjects\Task_Scheduler\Scripts\TaskSchedulerJobScript.sql = DBProjects\Task_Scheduler\Scripts\TaskSchedulerJobScript.sql
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CoreDB", "DBProjects\CoreDB\CoreDB.sqlproj", "{29C2AB5A-DDEF-48D5-92E1-6E3858C29E5C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdminDB", "DBProjects\AdminDB\AdminDB.sqlproj", "{71363766-EDF2-43F9-81F9-A0623D2B6881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C2AB5A-DDEF-48D5-92E1-6E3858C29E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C2AB5A-DDEF-48D5-92E1-6E3858C29E5C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{29C2AB5A-DDEF-48D5-92E1-6E3858C29E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C2AB5A-DDEF-48D5-92E1-6E3858C29E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C2AB5A-DDEF-48D5-92E1-6E3858C29E5C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{71363766-EDF2-43F9-81F9-A0623D2B6881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71363766-EDF2-43F9-81F9-A0623D2B6881}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{71363766-EDF2-43F9-81F9-A0623D2B6881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71363766-EDF2-43F9-81F9-A0623D2B6881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71363766-EDF2-43F9-81F9-A0623D2B6881}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B6A27F4-CE03-43DD-87B0-AE97454F7457} = {47512C49-3057-49C8-BB6A-B46A15BE98AF}
+		{00A02F35-DFA0-48D8-9CCC-6C28F9EF97BA} = {6B6A27F4-CE03-43DD-87B0-AE97454F7457}
+		{A01409F5-2E7E-4C80-A8C0-79FB2CE89642} = {6B6A27F4-CE03-43DD-87B0-AE97454F7457}
+		{29C2AB5A-DDEF-48D5-92E1-6E3858C29E5C} = {47512C49-3057-49C8-BB6A-B46A15BE98AF}
+		{71363766-EDF2-43F9-81F9-A0623D2B6881} = {47512C49-3057-49C8-BB6A-B46A15BE98AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46EEF02B-6946-417A-93B6-7101847073D0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/ludju
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DBProjects\\AdminDB\\AdminDB.sqlproj
+		SccProjectTopLevelParentUniqueName1 = AppSolution.sln
+		SccProjectName1 = DBProjects/AdminDB
+		SccLocalPath1 = DBProjects\\AdminDB
+		SccProjectUniqueName2 = DBProjects\\CoreDB\\CoreDB.sqlproj
+		SccProjectTopLevelParentUniqueName2 = AppSolution.sln
+		SccProjectName2 = DBProjects/CoreDB
+		SccLocalPath2 = DBProjects\\CoreDB
+	EndGlobalSection
+EndGlobal

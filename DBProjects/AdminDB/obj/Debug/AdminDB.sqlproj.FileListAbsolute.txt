@@ -1,0 +1,10 @@
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.sqlproj.AssemblyReference.cache
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.dll
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.pdb
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.dacpac
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.dll
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.pdb
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\Model.xml
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\refactor.xml
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\postdeploy.sql
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\predeploy.sql

@@ -1,0 +1,6 @@
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.dacpac
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.dll
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.pdb
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.sqlproj.AssemblyReference.cache
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.dll
+C:\Users\Lucija\Desktop\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.pdb
